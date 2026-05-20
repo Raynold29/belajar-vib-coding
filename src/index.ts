@@ -3,7 +3,7 @@ import { db } from "./db";
 import { users } from "./db/schema";
 
 const app = new Elysia()
-  .get("/", () => ({ message: "Hello Elysia with Bun, Drizzle & MySQL!" }))
+  .get("/", () => ({ message: "Shalom,,Selamat Beribadah dan Memuji Menyembah Tuhan.!" }))
   .get("/users", async () => {
     try {
       const allUsers = await db.select().from(users);
